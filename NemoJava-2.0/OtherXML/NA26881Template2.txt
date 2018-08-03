@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cXML payloadID="1510804554577.7413@RDULPNEMO01" timestamp="2017-11-16T03:55:54Z" xml:lang="en-US"> 
+  <Header> 
+    <From> 
+      <Credential domain="NetworkID"> 
+        <Identity>NA-26681-1</Identity> 
+      </Credential> 
+    </From>  
+    <To> 
+      <Credential domain="DUNS"> 
+        <Identity>ABCDEFGH</Identity> 
+      </Credential> 
+    </To>  
+    <Sender> 
+      <Credential domain="DUNS"> 
+        <Identity>NA-26681-1</Identity>  
+        <SharedSecret>aaa</SharedSecret> 
+      </Credential>  
+      <UserAgent>CatalogTester</UserAgent> 
+    </Sender> 
+  </Header>  
+  <Request> 
+    <PunchOutSetupRequest operation="create"> 
+      <BuyerCookie>2wSeTGXpJOJLhFpl0gsbQsYlSuDoiLvV0.3969344609624768632</BuyerCookie>  
+      <BrowserFormPost> 
+        <URL>https://pre-c-hybris.lenovo.com/nemopunchouttool/ariba/handlePunchOutOrder</URL> 
+      </BrowserFormPost>  
+      <SupplierSetup> 
+        <URL>http://www.lenovo.com</URL> 
+      </SupplierSetup>  
+      <ShipTo> 
+        <Address addressID="26"> 
+          <Name xml:lang="en-US">Catalog Tester</Name>  
+          <PostalAddress name="_5uicbb"> 
+            <DeliverTo>Catalog Tester</DeliverTo>  
+            <Street>1234 Catalog Tester Way</Street>  
+            <City>Sunnyvale</City>  
+            <State>CA</State>  
+            <PostalCode>94089</PostalCode>  
+            <Country isoCountryCode="US">United States</Country> 
+          </PostalAddress> 
+        </Address> 
+      </ShipTo>  
+      <SelectedItem> 
+        <ItemID> 
+          <SupplierPartID/>  
+          <SupplierPartAuxiliaryID/> 
+        </ItemID> 
+      </SelectedItem>  
+      <Extrinsic name="nemo">hello</Extrinsic> 
+    </PunchOutSetupRequest> 
+  </Request> 
+</cXML>

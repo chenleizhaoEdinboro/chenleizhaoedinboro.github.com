@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test1" thread-count="1" parallel="instances" verbose="2">
+	<test name="Test"  preserve-order="true">
+		<classes>
+			<class name="FactoryAndData.B2B.NA21184" />
+			<class name="FactoryAndData.B2B.NA21952" />
+			<class name="FactoryAndData.B2B.NA23046" />
+			<class name="FactoryAndData.B2B.NA17505" />
+			<class name="FactoryAndData.B2B.NA17710" />
+			<class name="FactoryAndData.B2B.NA21942" />
+		</classes>
+	</test>
+</suite>

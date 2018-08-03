@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test1" thread-count="1" parallel="instances" verbose="2">
+	<parameter name="Environment" value="PreC" />
+	<parameter name="RunID" value="1" />
+	<parameter name="Priority" value="P1" />
+	<parameter name="Browser" value="Chrome" /> 
+	<listeners>
+		<listener class-name="Logger.RetryListener" />
+	</listeners>
+	<test name="Test"  preserve-order="true">
+		<classes>
+			<class name="FactoryAndData.B2B.NA21963" />
+			<class name="FactoryAndData.B2B.NA21817" />
+			<class name="FactoryAndData.B2B.NA19767" />
+			<class name="FactoryAndData.B2B.NA18960" />
+			<class name="FactoryAndData.B2B.NA15457" />
+			<class name="FactoryAndData.B2B.NA15456" />
+			<class name="FactoryAndData.B2B.NA13819" />
+			<class name="FactoryAndData.B2B.NA13741" />
+			<class name="FactoryAndData.B2B.NA13426" />
+			<class name="FactoryAndData.B2B.NA13181" />
+			<class name="FactoryAndData.B2B.NA13165" />
+			<class name="FactoryAndData.B2B.NA10324" />
+			<class name="FactoryAndData.B2B.NA9729" />
+			<class name="FactoryAndData.B2B.NA9382" />
+			<class name="FactoryAndData.B2B.NA25655" />
+			<class name="FactoryAndData.B2B.NA25656" />
+			<class name="FactoryAndData.B2B.NA25657" />
+		</classes>
+	</test>
+</suite>

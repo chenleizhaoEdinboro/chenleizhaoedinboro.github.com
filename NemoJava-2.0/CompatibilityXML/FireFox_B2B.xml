@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test1" thread-count="1" parallel="instances" verbose="2">
+	<parameter name="Environment" value="PreC" />
+	<parameter name="RunID" value="1" />
+	<parameter name="Priority" value="Compatibility" />
+	<parameter name="Browser" value="FireFox" /> 
+	<listeners>
+		<listener class-name="Logger.RetryListener" />
+	</listeners>
+	<test name="Test"  preserve-order="true">
+		<classes>
+			<class name="FactoryAndData.B2B.NA16415" />
+			<class name="FactoryAndData.B2B.NA16389" />
+			<class name="FactoryAndData.B2B.NA15503" />
+			<class name="FactoryAndData.B2B.NA19422" />
+		</classes>
+	</test>
+</suite>

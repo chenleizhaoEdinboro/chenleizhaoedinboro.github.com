@@ -1,0 +1,38 @@
+package CommonFunction.DesignHandler;
+
+public enum PaymentType {
+	Visa_B2C, 
+	AmericanExpress_B2C, 
+	Master_B2C, 
+	Discover_B2C, 
+	JCB_B2C, 
+	Paypal_B2C, 
+	Deposit_B2C, 
+	Wire_B2C, 
+	TwoCards_B2C, 
+	Klarna_B2C, 
+	Zibby_B2C,
+	PayU_B2C,
+	PurchaseOrder_B2C,
+	JACCS_B2C,
+	Visa3DS_B2C,
+	Master3DS_B2C,
+	Boleto_B2C,
+	Mercado_B2C,
+	Amazon_B2C,
+	LFS_B2C,
+	IGF_B2C,
+	Party_B2C,
+	
+	AMEX_B2B,
+	Amazon_B2B,
+	Deposit_B2B,
+	Discover_B2B,
+	IGF_B2B,
+	LFS_B2B,
+	Master_B2B,
+	Party_B2B,
+	PayPal_B2B,
+	PurchaseOrder_B2B,
+	VISA_B2B
+}

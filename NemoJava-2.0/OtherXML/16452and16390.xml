@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test1" thread-count="1" parallel="instances" verbose="2">
+	<parameter name="Environment" value="PreC" />
+	<parameter name="RunID" value="1" />
+	<parameter name="Priority" value="P1" />
+	<parameter name="Browser" value="Chrome" /> 
+	<listeners>
+		<listener class-name="Logger.RetryListener" />
+	</listeners>
+	<test name="Test">
+		<classes>
+<!-- 			<class name="FactoryAndData.B2C.NA16452" />
+ -->			<class name="FactoryAndData.B2C.NA16390" />		
+		</classes>
+	</test>
+</suite>

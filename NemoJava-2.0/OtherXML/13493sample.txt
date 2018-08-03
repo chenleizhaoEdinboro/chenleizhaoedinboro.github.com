@@ -1,0 +1,3 @@
+ProfileName,B2BCustomer,Profile Activate,cXML Activate,Custom Cart,Inbound rule,Rule 1,Rule 2,Rule 3,Rule 4,UNSPSC mapping
+ProfileName1,B2BCustomer1,TRUE,TRUE,TRUE,groupId+fieldName+fieldValue+1213577815,/ItemIn/ItemDetail/Description+/ItemIn/ItemDetail/LongDescription,/ItemIn/ItemDetail/CostCenter+10&/ItemIn/ItemDetail/UnitOfMeasure+PER,BasketID+cartID,Constant+extrinsic1+value1,1+001+0001|2+002+0002|3+003+|4++0004
+ProfileName2,B2BCustomer1,TRUE,TRUE,TRUE,groupId+fieldName+fieldValue+1213577815,/ItemIn/ItemDetail/Description+/ItemIn/ItemDetail/LongDescription,/ItemIn/ItemDetail/CostCenter+10&/ItemIn/ItemDetail/UnitOfMeasure+PER,BasketID+cartID,Constant+extrinsic1+value1,1+001+0001|2+002+0002|3+003+|4++0004

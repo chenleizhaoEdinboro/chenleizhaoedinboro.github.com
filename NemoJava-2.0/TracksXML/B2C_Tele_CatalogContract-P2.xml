@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test1" thread-count="8" parallel="instances" verbose="2">
+	<parameter name="Environment" value="PreC" />
+	<parameter name="RunID" value="1" />
+	<parameter name="Priority" value="P2" />
+	<parameter name="Browser" value="Chrome" />
+
+	<listeners>
+		<listener class-name="Logger.RetryListener" />
+	</listeners>
+	<test name="Test" preserve-order="true">
+		<classes>
+			<class name="FactoryAndData.B2C.NA21832" />
+			<class name="FactoryAndData.B2C.NA21948" />
+			<class name="FactoryAndData.B2C.NA21981" />
+			<class name="FactoryAndData.B2C.NA22977" />
+			<class name="FactoryAndData.B2C.NA23911" />
+			<class name="FactoryAndData.B2C.NA22978" />
+			<class name="FactoryAndData.B2C.NA21949" />
+			<class name="FactoryAndData.B2C.NA21912" />
+			<class name="FactoryAndData.B2C.NA21906" />
+			<class name="FactoryAndData.B2C.NA21902" />
+			<class name="FactoryAndData.B2C.NA17643" />	
+			<class name="FactoryAndData.B2C.NA17667" />	
+			<class name="FactoryAndData.B2C.NA21786" />	
+			<class name="FactoryAndData.B2C.NA21838" />	
+			<class name="FactoryAndData.B2C.NA21876" />	
+			<class name="FactoryAndData.B2C.NA21900" />	
+			<class name="FactoryAndData.B2C.NA21901" />	
+			<class name="FactoryAndData.B2C.NA21943" />	
+			<class name="FactoryAndData.B2C.NA21818" />	
+			<class name="FactoryAndData.B2C.NA21842" />	
+			<class name="FactoryAndData.B2C.NA23892" />	
+			<class name="FactoryAndData.B2C.NA23893" />	
+			<class name="FactoryAndData.B2C.NA25597" />	
+			<class name="FactoryAndData.B2C.NA26087" />
+			<class name="FactoryAndData.B2C.NA21866" />
+			<class name="FactoryAndData.B2C.NA27336" />
+			<class name="FactoryAndData.B2C.NA27368" />
+			<class name="FactoryAndData.B2C.NA28145"/> 
+		</classes>
+	</test>
+</suite>

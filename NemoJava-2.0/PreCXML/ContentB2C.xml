@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test1" thread-count="8" parallel="instances" verbose="2">
+	<listeners>
+		<listener class-name="Logger.RetryListener" />
+	</listeners>
+
+	<test name="Test" preserve-order="true">
+		<groups>
+			<run>
+				<include name="contentgroup" />
+				<exclude name="b2b" />
+			</run>
+		</groups>
+		<packages>
+			<package name="FactoryAndData.B2C" />
+		</packages>
+	</test>
+</suite>

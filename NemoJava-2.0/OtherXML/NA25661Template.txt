@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cXML payloadID="1437453971549-823720124217377817" timestamp="2013-10-30T09:34:54-07:00" xml:lang="en-US">
+<Header>
+  <From>
+    <Credential domain="Domain">
+      <Identity>Identityxx</Identity>
+    </Credential>
+  </From>
+  <To>
+    <Credential domain="DUNS">
+      <Identity>ABCDEFGH</Identity>
+    </Credential>
+  </To>
+  <Sender>
+    <Credential domain="DUNS">
+      <Identity>123456789</Identity>
+      <SharedSecret>SharedSecretxxx</SharedSecret>
+    </Credential>
+    <UserAgent>CatalogTester</UserAgent>
+  </Sender>
+</Header>
+<Request>
+  <PunchOutSetupRequest operation="create">
+    <BuyerCookie>2wSeTGXpJOJLhFpl0gsbQsYlSuDoiLvV0.3969344609624768632</BuyerCookie>
+    <BrowserFormPost>
+      <URL></URL>
+    </BrowserFormPost>
+    <SupplierSetup>
+      <URL>http://www.lenovo.com</URL>
+    </SupplierSetup>
+    <ShipTo>
+      <Address addressID="26">
+        <Name xml:lang="en-US">Catalog Tester</Name>
+      </Address>
+    </ShipTo>
+    <SelectedItem>
+      <ItemID>
+        <SupplierPartID></SupplierPartID>
+        <SupplierPartAuxiliaryID>
+        </SupplierPartAuxiliaryID>
+      </ItemID>
+    </SelectedItem>
+  </PunchOutSetupRequest>
+</Request>
+</cXML>

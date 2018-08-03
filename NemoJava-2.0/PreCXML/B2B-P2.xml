@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test1" thread-count="1" parallel="instances" verbose="2">
+	<parameter name="Environment" value="PreC" />
+	<parameter name="RunID" value="1" />
+	<parameter name="Priority" value="P2" />
+	<parameter name="Browser" value="Chrome" />
+	<listeners>
+		<listener class-name="Logger.RetryListener" />
+	</listeners>
+	<test name="Test" preserve-order="true">
+		<classes>
+			<class name="FactoryAndData.B2B.NA9729" />
+			<class name="FactoryAndData.B2B.NA10324" />
+			<class name="FactoryAndData.B2B.NA13165" />
+			<class name="FactoryAndData.B2B.NA13181" />
+			<class name="FactoryAndData.B2B.NA13426" />
+			<class name="FactoryAndData.B2B.NA17401" />
+			<class name="FactoryAndData.B2B.NA17671" />
+			<class name="FactoryAndData.B2B.NA17699" />
+			<class name="FactoryAndData.B2B.NA17710" />
+			<class name="FactoryAndData.B2B.NA18019" />
+			<class name="FactoryAndData.B2B.NA18036" />
+			<class name="FactoryAndData.B2B.NA18038" />
+			<class name="FactoryAndData.B2B.NA18052" />
+			<class name="FactoryAndData.B2B.NA18057" />
+			<class name="FactoryAndData.B2B.NA18080" />
+			<class name="FactoryAndData.B2B.NA18108" />
+			<class name="FactoryAndData.B2B.NA18480" />
+			<class name="FactoryAndData.B2B.NA18973" />
+			<class name="FactoryAndData.B2B.NA19027" />
+			<class name="FactoryAndData.B2B.NA19804" />
+			<class name="FactoryAndData.B2B.NA19973" />
+			<class name="FactoryAndData.B2B.NA19974" />
+			<class name="FactoryAndData.B2B.NA20000" />
+			<class name="FactoryAndData.B2B.NA21184" />
+			<class name="FactoryAndData.B2B.NA21226" />
+			<class name="FactoryAndData.B2B.NA21297" />
+			<class name="FactoryAndData.B2B.NA21299" />
+			<class name="FactoryAndData.B2B.NA21817" />
+			<class name="FactoryAndData.B2B.NA21942" />
+			<class name="FactoryAndData.B2B.NA21952" />
+			<class name="FactoryAndData.B2B.NA21963" />
+			<class name="FactoryAndData.B2B.NA22370" />
+			<class name="FactoryAndData.B2B.NA21944" />
+			<class name="FactoryAndData.B2B.NA19767" />
+			<class name="FactoryAndData.B2B.NA22685" />
+			<class name="FactoryAndData.B2B.NA23913" />
+			<class name="FactoryAndData.B2B.NA21227" />
+			<class name="FactoryAndData.B2B.NA16868" />
+			<class name="FactoryAndData.B2B.NA17688" />
+			<class name="FactoryAndData.B2B.NA18360" />
+			<class name="FactoryAndData.B2B.NA18468" />
+			<class name="FactoryAndData.B2B.NA21891" />
+			<class name="FactoryAndData.B2B.NA21905" />
+			<class name="FactoryAndData.B2B.NA18960" />
+			<class name="FactoryAndData.B2B.NA15457" />
+			<class name="FactoryAndData.B2B.NA25655" />
+			<class name="FactoryAndData.B2B.NA25656" />
+			<class name="FactoryAndData.B2B.NA25657" />
+			<class name="FactoryAndData.B2B.NA18036" />
+			<class name="FactoryAndData.B2B.NA15456" />
+			<class name="FactoryAndData.B2B.NA13741" />
+			<class name="FactoryAndData.B2B.NA13519" />
+			<class name="FactoryAndData.B2B.NA25658" />
+			<class name="FactoryAndData.B2B.NA25659" />
+			<class name="FactoryAndData.B2B.NA25661" />
+			<class name="FactoryAndData.B2B.NA25662" />
+			<class name="FactoryAndData.B2B.NA17410" />
+			<class name="FactoryAndData.B2B.NA18025" />
+			<class name="FactoryAndData.B2B.NA18029" />
+			<class name="FactoryAndData.B2B.NA23046" />
+			<class name="FactoryAndData.B2B.NA21286" />
+			<class name="FactoryAndData.B2B.NA17505" />
+			<class name="FactoryAndData.B2B.NA25660" />
+			<class name="FactoryAndData.B2B.NA18405" />
+			<class name="FactoryAndData.B2B.NA25381" />
+			<class name="FactoryAndData.B2B.NA19792" />
+			<class name="FactoryAndData.B2B.NA17280" />
+			<class name="FactoryAndData.B2B.NA28469" />
+			<class name="FactoryAndData.B2B.NA13493" />
+			<class name="FactoryAndData.B2B.NA25660" />
+			<class name="FactoryAndData.B2B.NA24530" />
+			<class name="FactoryAndData.B2B.NA18975" />
+			<class name="FactoryAndData.B2B.NA19854" />
+			<class name="FactoryAndData.B2B.NA21875" />
+			<class name="FactoryAndData.B2B.DR75" />
+			<class name="FactoryAndData.B2B.NA27196" />
+			<class name="FactoryAndData.B2B.NA28156" />
+			<class name="FactoryAndData.B2B.NA26432"/>
+			<class name="FactoryAndData.B2B.NA19873" />
+			<class name="FactoryAndData.B2B.NA10264" />
+			<class name="FactoryAndData.B2B.NA10323" />
+		    <class name="FactoryAndData.B2B.NA27732"/>
+		    <class name="FactoryAndData.B2B.NA13158"/>
+		    <class name="FactoryAndData.B2B.NA13170"/>
+		    <class name="FactoryAndData.B2B.NA13379"/>
+		    <class name="FactoryAndData.B2B.NA28214"/>
+		    <class name="FactoryAndData.B2B.NA28210"/>
+		    <class name="FactoryAndData.B2B.NA9417"/>
+		    <class name="FactoryAndData.B2B.NA27225"/>
+		    <class name="FactoryAndData.B2B.NA27290"/>		    
+		    <class name="FactoryAndData.B2B.NA28508"/>
+		    <class name="FactoryAndData.B2B.NA13518"/>
+		    <class name="FactoryAndData.B2B.NA26881"/>
+		    <class name="FactoryAndData.B2B.NA9354"/>
+		    <class name="FactoryAndData.B2B.NA20390"/>
+		    <class name="FactoryAndData.B2B.NA10440"/>
+		    <class name="FactoryAndData.B2B.NA28925"/>
+		    <class name="FactoryAndData.B2B.NA27028"/>
+		    <class name="FactoryAndData.B2B.NA28440"/>
+		    <class name="FactoryAndData.B2B.NA28444"/>
+		    <class name="FactoryAndData.B2B.CONTENT223"/>
+		    <class name="FactoryAndData.B2B.CONTENT316"/>
+		    <class name="FactoryAndData.B2B.CONTENT317"/>
+		    <class name="FactoryAndData.B2B.CONTENT319"/>
+		    <class name="FactoryAndData.B2B.CONTENT409"/>
+		</classes>
+	</test>
+</suite>
